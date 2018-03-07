@@ -1,2 +1,2 @@
-# boostrap4
-My training about Boostrap 4 from Udemy
+# Bootstrap 4
+My training about Bootstrap 4 from Udemy
