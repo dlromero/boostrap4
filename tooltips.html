@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
+    <title>Tootips</title>
+</head>
+
+<body data-spy="scroll" data-target="#fm-nav">
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Tootip en enlace"> consectetur adipisicing elit.</a> Optio, deserunt porro tempora accusamus dolorum quibusdam minima blanditiis
+                    recusandae
+                    <a href="" data-toggle="tooltip" data-placement="bottom" title="Google.com">dolores maiores non</a> nihil nesciunt ea? Hic nemo illum dicta impedit minus!Loremlorem </p>
+
+                <button class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Tooltip en Boton">
+                    Boton
+                </button>
+
+                <button class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="Tooltip en Boton">
+                    Boton
+                </button>
+
+                <button class="btn btn-primary" data-toggle="tooltip" data-placement="left" title="Tooltip en Boton">
+                    Boton
+                </button>
+
+                <button class="btn btn-primary" data-toggle="tooltip" data-placement="right" title="Tooltip en Boton">
+                    Boton
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        })
+    </script>
+</body>
+
+</html>
