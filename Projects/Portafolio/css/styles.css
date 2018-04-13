@@ -76,6 +76,15 @@ header .menu .c-3:hover  {
     background: #002d44;
 }
 
+/* --- SLIDER --- */
+.slider{
+    margin-bottom: 40px;
+}
+
+.slider .col{
+    padding: 0;
+}
+
 /* --- MEDIAQUERIES --- */
 
 /* Dispositivo xl */
@@ -115,3 +124,4 @@ header .menu .c-3:hover  {
     }
 
 }
+
