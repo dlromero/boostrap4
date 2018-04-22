@@ -346,7 +346,25 @@ main footer .copyright{
 }
 
 /* Dispositivo md */
-@media screen and (max-width:767px){}
+@media screen and (max-width:767px){
+    main .btn-menu{
+        display: block;
+        border: 1px solid #00609c;
+        padding: 5px 10px;
+        font-size: 14px;
+        background: linear-gradient(to bottom, #1a87cd, #1176b6 100%);
+        color: #fff;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    main .btn-menu:hover{
+        text-decoration: none;
+        background: #0d659d;
+    }
+}
 
 /* Dispositivo sm */
 @media screen and (max-width:575px){
