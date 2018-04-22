@@ -296,6 +296,40 @@ main .publicacion .comentario .me-gusta{
     font-size: 14px;
 }
 
+/* -- BARA LATERAR DERECHA --- */
+main .barra-lateral-derecha h3{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+main .barra-lateral-derecha .ads a{
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+main .barra-lateral-derecha .ads a img{
+    width: 100%;
+}
+
+/* --- FOOTER --- */
+main footer{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+main footer a{
+    color: #1176b6;
+    line-height: 14px;
+    margin-right: 10px;
+
+}
+
+main footer .copyright{
+    color: #919191;
+    margin-top: 10px;
+}
+
 /* --- MEDIAQUERIES --- */
 
 @media screen and (max-width:1300px){
